@@ -1,4 +1,4 @@
-# Structured Output Parsers in LangChain
+# Output Parsers in LangChain
 
 This repository demonstrates how to work with **structured output parsers** in LangChain. It covers different ways to parse and validate model outputs, including string parsing, JSON parsing, Pydantic validation, and LangChain’s built-in `StructuredOutputParser`. These techniques ensure reliable extraction of clean, structured data from LLMs for use in downstream applications. You can use these techniques with both closed-source models (like OpenAI, Anthropic, Google) and open-source models (via Hugging Face).
 
@@ -24,6 +24,6 @@ ANTHROPIC_API_KEY="your_anthropic_key"
 GOOGLE_API_KEY="your_google_key"
 HUGGINGFACEHUB_API_KEY="your_huggingfacehub_key"
 ```
-## Dont have closed-source API key ?
 
-Refer to the repo Models_in_LangChain for using open-sourced Hugging Face chat models (via API or locally).
+### Dont have closed-source API key ? 
+Refer to the repo [**Models_in_LangChain**](https://github.com/yourusername/Models_in_LangChain) for using open-sourced Hugging Face chat models (via API or locally).
